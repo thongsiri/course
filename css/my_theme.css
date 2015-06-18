@@ -1,0 +1,52 @@
+body{
+	background-color:#faf7f2;
+}
+
+button{
+	background-color:#396b9e;
+	border:#013f64 solid 1px;
+	color:#FFF;
+	cursor:pointer;	
+}
+
+input, select{
+	border:#a8a8a8 solid 1px;
+}
+
+.login-content{
+	background-color:#FFFF99;
+}
+
+h3{
+	font-size:15px;	
+	padding:0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+
+.list_course_name{
+	border-top:#aba9aa solid 1px;	
+	border-bottom:#e9e7b9 solid 1px;	
+}
+
+.page-spacing{
+	/*margin:0px;
+	padding:0px;*/
+}
+
+.header-link, .header-link a{
+	color:#FFF;	
+	height:40px;
+	background-color:#b21f27;
+	padding-top:10px;
+}
+
+.header-link a:hover{
+	color:#396b9e;
+}
+
+.requireBox{
+	background-color:#FFC;
+	border:#F00 1px solid;	
+}
