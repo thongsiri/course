@@ -12,3 +12,8 @@ $dbi['server'] = "localhost";
 $dbi['name'] = //Database name
 $dbi['user'] = //username
 $dbi['password'] = //password
+
+
+Username&Password for test
+Student - username: stu1 , Password: stu1
+Instructor - username: ins1 , Password: ins1
