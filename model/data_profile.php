@@ -6,6 +6,7 @@ session_start();
 
 require_once("../controller/connect.php");
 
+$mode = $_GET['mode'];
 
 class data_profile{
 	

@@ -19,7 +19,6 @@ $birthday = $birthday_year."-".$birthday_month."-".$birthday_day;
 switch($mode){
 	case "create":
 							$db->query("INSERT INTO cms_members (roleID, username, password, firstname, lastname, nickname, birthday) VALUES ('".$roleID."', '".$username."', '".$password."', '".$firstname."', '".$lastname."', '".$nickname."', '".$birthday."')");
-							//echo "INSERT INTO cms_members (roleID, username, password, firstname, lastname, nickname, birthday) VALUES ('".$roleID."', '".$username."', '".$password."', '".$firstname."', '".$lastname."', '".$nickname."', '".$birthday."')";
 							header("Location: ../view/list_course.php");
 							exit;
 	break;
@@ -27,7 +26,6 @@ switch($mode){
 	case "edit":
 						$courseID = $_GET['courseID'];
 						$db->query("UPDATE cms_members SET firstname = '".$firstname."', lastname = '".$lastname."', nickname = '".$nickname."', birthday = '".$birthday."' WHERE ID = '".$memberID."' AND username = '".$username."'");
-						//echo "UPDATE cms_members SET firstname = '".$firstname."', lastname = '".$lastname."', nickname = '".$nickname."', birthday = '".$birthday."' WHERE ID = '".$memberID."' AND username = '".$username."'";
 						header("Location: ../view/list_course.php");
 						exit;
 	break;
